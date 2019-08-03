@@ -2,7 +2,8 @@
 @grey:rgb(208, 208, 208);
 
 @content: rgb(0,0,0);
-@red:rgb(167,0,0);
+@brown:rgb(89,62,51);
+@brown_light:rgb(141,112,80);
 
 
 body {
@@ -20,10 +21,10 @@ h2,h3,h4{
   font-family: 'ITC Franklin Gothic LT W01 Md',Arial, Helvetica, sans-serif;
 }
 a{
-  color:@red;
+  color:@brown;
   &:hover{
     text-decoration: underline;
-    color:@red;
+    color:@brown;
   }
 }
 .sy-box.topslider{
@@ -35,12 +36,12 @@ a{
   li{
     &.sy-active{
       a{
-        background:@red!important;
+        background:@brown!important;
       }
     }
     a{
       background:transparent!important;
-      border:1px solid @red;
+      border:1px solid @brown;
     }
   }
 }
@@ -53,6 +54,37 @@ blockquote{
   background:@grey_light;
 }
 header{
+  #headertelw{
+    background:@brown_light;
+    color:white;
+    position:absolute;
+    right:1rem;
+    top:-2rem;
+    a{
+      color:white!important;
+    }
+    padding:0.5rem 0.5rem;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    img{
+      margin-right:0.5rem;
+      max-height:1.3rem;
+    }
+    .elem{
+      display:flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding:0 0.5rem
+    }
+    @media (max-width: 720px){
+      position:relative;
+      right:auto;
+      top:auto;
+      width:100vw;
+      justify-content: space-between;
+    }
+  }
   background:white;
   padding:2rem 0;
   .headerw{
@@ -121,10 +153,10 @@ header{
     font-size: 1.2rem;
   }
   &:hover{
-    border-bottom:2px solid @red;
-    color:@red;
+    border-bottom:2px solid @brown;
+    color:@brown;
     a{
-      color:@red !important;
+      color:@brown !important;
     }
     .sub-menu{
       height:auto;
@@ -169,7 +201,7 @@ header{
       padding:0 1rem;
       > a{
         &:hover{
-          color:@red!important;
+          color:@brown!important;
         }
         color:@content!important;
         font-size:1.2rem;
@@ -231,7 +263,7 @@ footer{
   }
   #subfooter{
     padding:0.5rem 0;
-    background: black;
+    background: @brown_light;
     margin-top:2rem;
     a{
       color:white!important;
@@ -262,7 +294,7 @@ footer{
 }
 .btnlnk{
   padding:1rem 2rem;
-  background:@red;
+  background:@brown;
   color:white!important;
   font-size:1.7rem;
 }

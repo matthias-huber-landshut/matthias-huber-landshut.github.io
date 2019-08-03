@@ -15,11 +15,11 @@ h4 {
   font-family: 'ITC Franklin Gothic LT W01 Md', Arial, Helvetica, sans-serif;
 }
 a {
-  color: #a70000;
+  color: #593e33;
 }
 a:hover {
   text-decoration: underline;
-  color: #a70000;
+  color: #593e33;
 }
 .sy-box.topslider {
   background: #f0f0f0;
@@ -29,11 +29,11 @@ a:hover {
   padding: 0.35rem 0 !important;
 }
 .sy-pager li.sy-active a {
-  background: #a70000 !important;
+  background: #593e33 !important;
 }
 .sy-pager li a {
   background: transparent!important;
-  border: 1px solid #a70000;
+  border: 1px solid #593e33;
 }
 blockquote {
   text-align: center;
@@ -46,6 +46,39 @@ blockquote {
 header {
   background: white;
   padding: 2rem 0;
+}
+header #headertelw {
+  background: #8d7050;
+  color: white;
+  position: absolute;
+  right: 1rem;
+  top: -2rem;
+  padding: 0.5rem 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header #headertelw a {
+  color: white!important;
+}
+header #headertelw img {
+  margin-right: 0.5rem;
+  max-height: 1.3rem;
+}
+header #headertelw .elem {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+@media (max-width: 720px) {
+  header #headertelw {
+    position: relative;
+    right: auto;
+    top: auto;
+    width: 100vw;
+    justify-content: space-between;
+  }
 }
 header .headerw {
   position: relative;
@@ -127,11 +160,11 @@ header #headermenu {
   }
 }
 .headermenuitem:hover {
-  border-bottom: 2px solid #a70000;
-  color: #a70000;
+  border-bottom: 2px solid #593e33;
+  color: #593e33;
 }
 .headermenuitem:hover a {
-  color: #a70000 !important;
+  color: #593e33 !important;
 }
 .headermenuitem:hover .sub-menu {
   height: auto;
@@ -180,7 +213,7 @@ header #headermenu {
   line-height: 2rem;
 }
 .headermenuitem .sub-menu .sub-menu-item > a:hover {
-  color: #a70000 !important;
+  color: #593e33 !important;
 }
 .imggal .column {
   padding: 0.25rem!important;
@@ -232,7 +265,7 @@ footer .column.links ul li a {
 }
 footer #subfooter {
   padding: 0.5rem 0;
-  background: black;
+  background: #8d7050;
   margin-top: 2rem;
 }
 footer #subfooter a {
@@ -264,7 +297,7 @@ footer #subfooter .ui.container {
 }
 .btnlnk {
   padding: 1rem 2rem;
-  background: #a70000;
+  background: #593e33;
   color: white!important;
   font-size: 1.7rem;
 }
