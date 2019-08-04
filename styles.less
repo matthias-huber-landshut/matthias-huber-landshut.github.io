@@ -86,7 +86,7 @@ header{
     }
   }
   background:white;
-  padding:2rem 0;
+  padding:2rem 0 0 0;
   .headerw{
     position:relative;
     display:flex!important;
@@ -146,8 +146,8 @@ header{
   flex:0 1 auto;
   color:@content!important;
   text-align:center;
-  font-size:1.5rem;
-  line-height:3rem;
+  font-size:1.2rem;
+  line-height:2rem;
   @media (max-width: 720px){
     line-height: 2rem;
     font-size: 1.2rem;
@@ -240,7 +240,7 @@ footer{
   display:block;
   position:relative;
   background:white;
-  padding:4rem 0 0 0;
+  padding: 0;
   .logo{
     width:100%;
   }
@@ -298,7 +298,241 @@ footer{
   color:white!important;
   font-size:1.7rem;
 }
+.ut{
+  font-size:1.4rem;
+  font-weight:normal;
+  margin:0;
+}
+.tt{
+  font-size:3rem;
+  margin:0 0 2rem 0;
+  font-family: 'ITC Franklin Gothic LT W01 DmC',Arial, Helvetica, sans-serif;
+}
 #home{
+  #tobenw{
+    padding:4rem 0;
+    .content{
+      padding-left: 50%;
+      blockquote{
+        padding:0;
+        margin:0;
+        text-align:left;
+        font-size:3rem;
+        line-height:2em!important;
+        color:white;
+        font-style: normal;
+      }
+      p{
+        line-height:2em!important;
+      }
+      .lnkw{
+        margin:4rem 0 2rem 0;
+      }
+    }
+    @media (max-width: 720px){
+      padding:1rem 0;
+      background-position-x: left!important;
+      background-size: contain;
+      .content{
+        padding-left: 0;
+        blockquote{
+          padding:0;
+          margin:0;
+          text-align:left;
+          font-size:2rem;
+          line-height:2em!important;
+          color:white;
+          font-style: normal;
+        }
+        p{
+          line-height:2em!important;
+          color:white;
+        }
+        .lnkw{
+          margin:2rem 0 1rem 0;
+        }
+        .btnlnk{
+          padding:0.5rem 1rem;
+          font-size:1.3rem;
+        }
+      }
+    }
+  }
+  #intro{
+    padding:4rem 0;
+    @media (max-width: 720px){
+      padding:2rem 0;
+    }
+    img{
+      max-width:100%;
+    }
+    .content{
+      em{
+        font-style: normal;
+        color:@brown_light;
+      }
+    }
+    .tt{
+      strong{
+        color:@brown_light;
+      }
+    }
+  }
+  #kontakt{
+    padding:4rem 0 0 0;
+    @media (max-width: 720px){
+      padding:2rem 0;
+    }
+    margin: 0 0 -2rem 0;
+    .social{
+      padding:1rem 0;
+      display:flex;
+      flex-wrap: wrap;
+      >*{
+        margin: 0 2rem 0 0;
+      }
+      img{
+        max-width:40px;
+      }
+    }
+    .column.img{
+      @media (max-width: 720px){
+        display:none!important;
+      }
+      display:flex!important;
+      justify-content: flex-end;
+      
+    }
+    .column.ct{
+      padding:0 0 2rem 1rem;
+    }
+    img{
+      max-width:200px;
+    }
+    .content{
+      em{
+        font-style: normal;
+        color:@brown_light;
+      }
+    }
+    .tt{
+      strong{
+        color:@brown_light;
+      }
+    }
+  }
+  #referenzen{
+    padding:4rem 0;
+    @media (max-width: 720px){
+      padding:2rem 0;
+    }
+    .tt,.ut{
+      text-align:center;
+    }
+    .tt{
+      color:@brown_light;
+    }
+    .content{
+      columns:2;
+      column-gap: 4rem;
+      ul{
+        padding:0;
+        li{
+          margin: 0 0 0 1em;
+        }
+        margin:0 0 1rem 0;
+      }
+      @media (max-width: 720px){
+        columns:1;
+        ul{
+          padding:0 1rem;
+        }
+      }
+      h3{
+        color:@brown_light;
+        margin:0 0 0 0;
+      }
+    }
+  }
+  #ueber_mich{
+    padding:4rem 0;
+    @media (max-width: 720px){
+      padding:2rem 0;
+    }
+    color:white;
+    .tt,.ut{
+      text-align:center;
+    }
+    .content{
+      text-align:center;
+    }
+    img{
+      width:100px;
+      margin:0 0 2rem 0;
+    }
+    .column.content{
+      display:flex!important;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding:4rem 1rem 1rem 1rem;
+      ul{
+        padding:0;
+      }
+      li{
+        list-style-type:none;
+        p{
+          &::before{
+            content: '››';
+            color:white;
+            margin:0 0.5rem 0 0;
+            font-size:1em;
+            font-weight:normal;
+          }
+          margin: 0 0 1rem 0;
+        }
+        
+        display:flex;
+        justify-content: center;
+      }
+      h3{
+        font-family: 'ITC Franklin Gothic LT W01 DmC',Arial, Helvetica, sans-serif;
+      }
+    }
+  }
+  #portfolio{
+    background:@brown_light;
+    padding:4rem 0;
+    @media (max-width: 720px){
+      padding:2rem 0;
+    }
+    color:white;
+    .tt,.ut{
+      text-align:center;
+    }
+    .content{
+      text-align:center;
+      margin:-1rem 0 2rem 0;
+    }
+    .content2{
+      ul{
+        padding:0;
+        columns:2;
+        column-gap: 4rem;
+        li{
+          margin:0 0 1rem 0;
+          text-align: justify;
+        }
+        @media (max-width: 720px){
+          columns:1;
+          li{
+            text-align: left;
+          }
+          padding:0 1rem;
+        }
+      }
+    }
+  }
 }
 .nopadding{
   padding:0!important;
