@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Globals on Matthias Huber</title>
-    <link>https://matthias-huber-landshut.github.io/global/</link>
+    <link>https://matthias-huber.com/global/</link>
     <description>Recent content in Globals on Matthias Huber</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Tue, 10 Jul 2018 18:19:54 +0000</lastBuildDate>
     
-	<atom:link href="https://matthias-huber-landshut.github.io/global/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://matthias-huber.com/global/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Header</title>
-      <link>https://matthias-huber-landshut.github.io/global/header/</link>
+      <link>https://matthias-huber.com/global/header/</link>
       <pubDate>Tue, 10 Jul 2018 18:19:54 +0000</pubDate>
       
-      <guid>https://matthias-huber-landshut.github.io/global/header/</guid>
+      <guid>https://matthias-huber.com/global/header/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Footer</title>
-      <link>https://matthias-huber-landshut.github.io/global/footer/</link>
+      <link>https://matthias-huber.com/global/footer/</link>
       <pubDate>Fri, 25 May 2018 16:23:18 +0200</pubDate>
       
-      <guid>https://matthias-huber-landshut.github.io/global/footer/</guid>
+      <guid>https://matthias-huber.com/global/footer/</guid>
       <description></description>
     </item>
     
