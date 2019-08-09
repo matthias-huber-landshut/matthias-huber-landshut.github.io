@@ -332,10 +332,43 @@ footer #subfooter .ui.container {
 #home #tobenw .content .lnkw {
   margin: 4rem 0 2rem 0;
 }
-@media (max-width: 720px) {
+@media (max-width: 600px) {
   #home #tobenw {
     padding: 1rem 0;
     background-position: left -120px center !important;
+    background-size: contain;
+  }
+  #home #tobenw .content {
+    padding-left: 0;
+  }
+  #home #tobenw .content blockquote {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    font-size: 2rem;
+    line-height: 2em!important;
+    color: white;
+    font-style: normal;
+  }
+  #home #tobenw .content p {
+    line-height: 1.2em!important;
+    color: white;
+  }
+  #home #tobenw .content .lnkw {
+    margin: 2rem 0 1rem 0;
+  }
+  #home #tobenw .content .btnlnk {
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+  }
+  #home #tobenw .content > * {
+    text-align: right!important;
+  }
+}
+@media (max-width: 800px) {
+  #home #tobenw {
+    padding: 1rem 0;
+    background-position: center center!important;
     background-size: contain;
   }
   #home #tobenw .content {
