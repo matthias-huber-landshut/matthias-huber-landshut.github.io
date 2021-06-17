@@ -1,0 +1,17 @@
+{{ $header := .Site.GetPage "header.md" }}
+{{ $footer := .Site.GetPage "footer.md" }}
+{{$p:=.}}
+<footer>
+  <div id="subfooter">
+    <div class="ui container">
+      <div class="footernav">
+          {{ range .Site.Menus.footer }}
+              <a href="{{ .URL }}" title="{{ .Title }}">
+                  <span>{{ .Name | safeHTML }}</span>
+              </a>
+              {{end}}
+      </div>
+      <div class="ebdf"><a href="http://elvirabeck-design.de" target="_blank">elvira.beck | design</a></div>
+    </div>
+  </div>
+</footer>

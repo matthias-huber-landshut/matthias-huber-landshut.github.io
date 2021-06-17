@@ -1,0 +1,20 @@
+baseURL = "https://matthias-huber.com"
+languageCode = "de-de"
+theme = "huber"
+title = "Matthias Huber"
+[[menu.main]]
+name = "Kontakt"
+url = "/#kontakt"
+weight = 5
+[[menu.main]]
+name = "Über mich"
+url = "/#ueber_mich"
+weight = 4
+[[menu.main]]
+name = "Referenzen"
+url = "/#referenzen"
+weight = 3
+[[menu.main]]
+name = "Portfolio"
+url = "/#portfolio"
+weight = 2
